@@ -8,4 +8,6 @@ Photo metadata reports CC0, CC BY or CC BY-SA. These terms apply to the photos i
 
 Unmodified third-party components: [Qt/PySide6 6.12.0 source and licences](https://download.qt.io/official_releases/QtForPython/), [Qt 6.12.0 source](https://download.qt.io/archive/qt/6.12/6.12.0/single/), [FFmpeg source](https://ffmpeg.org/download.html), [OpenCV](https://github.com/opencv/opencv), [PyTorch](https://github.com/pytorch/pytorch), [Python](https://www.python.org/downloads/source/). Component-specific terms and notices in the distribution control; no exclusive ownership is claimed. Qt shared libraries remain replaceable. Nothing in the application-source notice removes rights to modify or debug third-party LGPL components as provided by their licences.
 
+The Qt Multimedia FFmpeg libraries in this Windows bundle report version **9.0.1**. Their reported build configuration does not enable GPL or nonfree components. Corresponding upstream FFmpeg release source is available from https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.xz. OpenCV also contains its own FFmpeg dependency; its separate licence/source notices are retained in the dependency-notices ZIP.
+
 Model weights are downloaded separately from pinned repositories, with their own terms. No model weights, private survey images or human training labels are contained in this public repository.
