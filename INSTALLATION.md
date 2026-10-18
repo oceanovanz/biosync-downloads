@@ -4,15 +4,7 @@
 
 Windows: download `BioSync-2.0.1-windows-x64-setup.exe` **and every accompanying `.bin` file into the same folder**, then run the setup executable. The CUDA runtime makes the package large; the installer reads its numbered data files automatically. Setup installs for the current user, creates a desktop icon by default and adds a Start menu entry. Python is included. Administrator access is not normally required.
 
-Linux download targets: Ubuntu 24.04 or newer, x86-64. These are release-build targets until the Linux build and hardware trial pass.
-
-- Debian/Ubuntu: install the `.deb` with `sudo apt install ./BioSync-2.0.1-linux-x86_64.deb`. Launch BioSync from the applications menu. Your desktop environment can pin it or copy its application launcher to the desktop.
-- Portable: download the `.tar.gz` and `install-linux.sh` together, inspect the script, then run `bash install-linux.sh`. This installs in your user profile and adds application-menu and desktop launchers where supported. GNOME may require **Allow Launching** on a desktop shortcut. Required system libraries still need to be installed; see the Debian dependency list in `packaging/build_linux.py`.
-- GitHub limits individual release assets to under 2 GiB. Large Linux packages have `.part01`, `.part02`, etc. alongside `parts.json`. Rejoin only the parts of the package you selected: `cat BioSync-2.0.1-linux-x86_64.tar.gz.part* > BioSync-2.0.1-linux-x86_64.tar.gz`. Compare the reassembled SHA-256 with `SHA256SUMS.txt` before extracting. The website can serve an unsplit archive instead.
-
-No macOS or ARM release is currently provided. A Linux build cannot be produced by the Windows compiler; the repository workflow builds it on Ubuntu.
-
-The currently available Linux download is `BioSync-2.0.1-Linux-Source.tar.gz`. Extract it into a permanent user-writable folder on Ubuntu 24.04, install Python 3.12, `python3.12-venv` and the listed system libraries, then run `bash Setup-Linux.sh`. That script installs pinned Python/AI dependencies and creates application-menu/desktop launchers. Run `bash Launch-Linux.sh` to start. This source route has not been exercised on Linux hardware in this Windows session; the future `.deb`/portable binary releases remove the separate Python setup step.
+Linux binary downloads require Linux build and hardware validation and are not available in this preview. No application-source archive is provided here. macOS and ARM releases are not available.
 
 ## Requirements
 
@@ -44,7 +36,7 @@ The app stores surveys, settings, labels, SQLite databases, offline maps and mod
 
 This development source folder still uses its existing `data/` directory. It is not automatically moved or overwritten by installing a release. To transfer it, close BioSync and copy the full source `data/` contents into the installed data directory before collecting new surveys there. Avoid merging two separately used SQLite databases.
 
-**Check for updates** is manual. It reads a small HTTPS release manifest, then offers the official download page. Close BioSync and run the new installer. There is no forced updater or remote model execution. Hosting is deliberately unset in the preview until Oceanova's actual website/repository is supplied.
+**Check for updates** is manual. It reads Oceanova's public HTTPS release manifest, then offers the official download page. Close BioSync and run the new installer. There is no forced updater or remote model execution. Public preview releases are listed at https://github.com/oceanovanz/biosync-downloads/releases.
 
 ## Windows download protection and networking
 
