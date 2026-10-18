@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "2.0.1",
-  "notes": "Windows preview. Unsigned; model weights download separately. Linux binaries are not yet available.",
+  "notes": "Early Release — Community Trial for Windows. Experimental AI; species and survey results require review. Unsigned installer; models download separately. Fast Tracking and Salmon Farm demos are not included in 2.0.1. Linux binaries are not yet available.",
   "downloads": {
     "windows": "https://github.com/oceanovanz/biosync-downloads/releases/tag/v2.0.1",
     "linux": "https://github.com/oceanovanz/biosync-downloads#linux"

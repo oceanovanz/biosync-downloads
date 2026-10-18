@@ -1,10 +1,12 @@
-# Oceanova BioSync downloads
+# Oceanova BioSync — Early Release
 
-**[Download BioSync 2.0.1 for Windows](https://github.com/oceanovanz/biosync-downloads/releases/tag/v2.0.1)**
+**[Download the BioSync 2.0.1 Windows trial](https://github.com/oceanovanz/biosync-downloads/releases/tag/v2.0.1)**
+
+**Early Release — Community Trial.** Help test BioSync and shape future updates. Features, performance and AI accuracy are still being developed. This is an evaluation build, not a validated survey or species-identification instrument. Read the [trial notes and known limitations](EARLY-RELEASE.md) before installing.
 
 Native Qt marine survey workstation with video, species review and online/offline GIS. This repository contains download information, release metadata and third-party notices. It does not contain BioSync's application source code, private observations or model weights.
 
-## Windows 11 x64 — preview
+## Windows 11 x64 — early community trial
 
 Open the release page above and download **all four files into the same folder**:
 

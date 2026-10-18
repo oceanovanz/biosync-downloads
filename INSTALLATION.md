@@ -1,4 +1,6 @@
-# BioSync desktop installation
+# BioSync early-release installation
+
+**Early Release — Community Trial.** Read [what is included and the known limitations](EARLY-RELEASE.md). The separate development demo launchers are not included in 2.0.1.
 
 ## Downloads
 
