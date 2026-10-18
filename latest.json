@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "version": "2.0.1",
+  "notes": "Windows preview. Unsigned; model weights download separately. Linux binaries are not yet available.",
+  "downloads": {
+    "windows": "https://github.com/oceanovanz/biosync-downloads/releases/tag/v2.0.1",
+    "linux": "https://github.com/oceanovanz/biosync-downloads#linux"
+  },
+  "platforms": {
+    "windows": {
+      "available": true
+    },
+    "linux": {
+      "available": false
+    }
+  }
+}
